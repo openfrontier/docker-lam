@@ -18,4 +18,5 @@ if [ ! -f "$LAM_CONF_FILE" ]; then
     sed -i "s/types: suffix_group: ou=group,dc=my-domain,dc=com/types: suffix_group: ${GROUP_DN}/g" ${LAM_CONF_FILE}
 fi
 
+chmod a+w ${LAM_CONF_FILE}
 exec /usr/local/bin/apache2-foreground
