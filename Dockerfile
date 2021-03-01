@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 
-MAINTAINER mengzhaopeng <qiuranke@gmail.com>
+MAINTAINER zsx <thinkernel@gmail.com>
 
 ENV LAM_VERSION 7.4
 ENV LAM_PACKAGE ldap-account-manager-${LAM_VERSION}
